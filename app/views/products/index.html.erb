@@ -1,0 +1,20 @@
+<section class="hero p-4 p-md-5 mb-5 rounded-4">
+  <span class="eyebrow">DISCOVER YOUR ROUTINE</span>
+  <h1 class="display-5 fw-bold mt-2">Find your next beauty favourite.</h1>
+  <p class="lead mb-0">Explore skincare, makeup and more by category, brand and skin type.</p>
+</section>
+<h2 class="h3 mb-3">Explore products <span class="text-muted fs-6">(<%= @products.total_count %> results)</span></h2>
+<%= form_with url: products_path, method: :get, local: true, class: "row g-2 mb-4" do |f| %>
+  <div class="col-md-5"><%= f.search_field :q, value: params[:q], placeholder: "Search products or brands...", class: "form-control", aria: { label: "Search products" } %></div>
+  <div class="col-md-3"><%= f.select :category_id, options_from_collection_for_select(@categories, :id, :name, params[:category_id]), { include_blank: "All categories" }, class: "form-select" %></div>
+  <div class="col-md-2"><%= f.select :brand_id, options_from_collection_for_select(@brands, :id, :name, params[:brand_id]), { include_blank: "All brands" }, class: "form-select" %></div>
+  <div class="col-md-2"><%= f.submit "Search", class: "btn btn-beauty w-100" %></div>
+<% end %>
+<% if @products.any? %>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+    <%= render partial: "products/product", collection: @products %>
+  </div>
+  <div class="mt-4"><%= paginate @products %></div>
+<% else %>
+  <div class="alert alert-light border">No products matched your search. <%= link_to "Clear filters", products_path %>.</div>
+<% end %>

@@ -1,0 +1,13 @@
+<h1>About the Beauty Product Explorer</h1>
+<p class="lead">A Ruby on Rails application for exploring a structured educational beauty-product dataset.</p>
+<h2 class="h4 mt-4">Where does the data come from?</h2>
+<p>This project imports three local CSV datasets: <code>categories.csv</code>, <code>brands.csv</code>, and <code>products.csv</code>. The data was generated specifically for this project and is <strong>fictional educational sample data</strong>, not real inventory, verified retail prices, or customer reviews. Each CSV is a separate source file, all stored in <code>db/data</code>.</p>
+<h2 class="h4 mt-4">How is it structured?</h2>
+<p>Categories contain a name and description. Brands contain a name and country. Products contain a name, description, price, sample rating, skin type, unique source code, and references to both a brand and a category. One brand has many products, and one category has many products. Each product belongs to one brand and one category.</p>
+<h2 class="h4 mt-4">How are the files connected?</h2>
+<p>The products CSV contains <code>brand_name</code> and <code>category_name</code> values. During seeding, Rails finds the corresponding Brand and Category records and saves their database IDs as foreign keys on each Product.</p>
+<h2 class="h4 mt-4">ERD</h2>
+<pre class="bg-light border rounded p-3">BRANDS (id PK, name, country)  1 ──── * PRODUCTS (id PK, brand_id FK, category_id FK, name, description, price, rating, skin_type, source_code) * ──── 1 CATEGORIES (id PK, name, description)</pre>
+<h2 class="h4 mt-4">Mapping</h2>
+<p><%= link_to "View the sample brand country map", brand_map_path %>. Map markers use approximate country centers from the fictional brand-country values and do not represent verified business locations.</p>
+<p>For more details, see <code>docs/DATASET_DESCRIPTION.md</code> and <code>docs/ERD.md</code>.</p>

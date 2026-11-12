@@ -1,0 +1,241 @@
+source_code,name,description,price,rating,skin_type,category_name,brand_name
+BPE-0001,Daily Cleanser 001,A daily cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,46.37,3.2,Oily,Cleansers,Luna Glow
+BPE-0002,Daily Moisturizer 002,A daily moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,22.69,3.5,All,Moisturizers,Aura Beauty
+BPE-0003,Daily Serum 003,A daily serums sample product designed for everyday beauty routines. Fictional demonstration listing.,48.60,4.8,All,Serums,Golden Hour
+BPE-0004,Daily Sunscreen 004,A daily sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,43.43,3.3,All,Sunscreens,Petal & Pearl
+BPE-0005,Daily Lip Glos 005,A daily lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,21.12,4.1,All,Lip Gloss,Radiant Lab
+BPE-0006,Daily Lip Liner 006,A daily lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,41.67,4.5,Sensitive,Lip Liners,Rosewater Co.
+BPE-0007,Daily Foundation 007,A daily foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,33.17,4.0,Oily,Foundations,Velvet Bloom
+BPE-0008,Daily Blush 008,A daily blush sample product designed for everyday beauty routines. Fictional demonstration listing.,56.57,3.2,Dry,Blush,Dewdrop Studio
+BPE-0009,Radiant Cleanser 009,A radiant cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,49.89,3.8,Dry,Cleansers,Petal & Pearl
+BPE-0010,Radiant Moisturizer 010,A radiant moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,20.92,4.6,All,Moisturizers,Radiant Lab
+BPE-0011,Radiant Serum 011,A radiant serums sample product designed for everyday beauty routines. Fictional demonstration listing.,13.56,3.4,Oily,Serums,Rosewater Co.
+BPE-0012,Radiant Sunscreen 012,A radiant sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,44.22,4.7,Combination,Sunscreens,Velvet Bloom
+BPE-0013,Radiant Lip Glos 013,A radiant lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,40.17,5.0,Combination,Lip Gloss,Dewdrop Studio
+BPE-0014,Radiant Lip Liner 014,A radiant lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,12.73,3.7,Sensitive,Lip Liners,Luna Glow
+BPE-0015,Radiant Foundation 015,A radiant foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,61.13,3.9,Dry,Foundations,Aura Beauty
+BPE-0016,Radiant Blush 016,A radiant blush sample product designed for everyday beauty routines. Fictional demonstration listing.,50.27,3.3,Dry,Blush,Golden Hour
+BPE-0017,Soft Cleanser 017,A soft cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,54.38,5.0,Dry,Cleansers,Velvet Bloom
+BPE-0018,Soft Moisturizer 018,A soft moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,59.99,3.9,Combination,Moisturizers,Dewdrop Studio
+BPE-0019,Soft Serum 019,A soft serums sample product designed for everyday beauty routines. Fictional demonstration listing.,46.14,3.9,Oily,Serums,Luna Glow
+BPE-0020,Soft Sunscreen 020,A soft sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,29.32,4.4,All,Sunscreens,Aura Beauty
+BPE-0021,Soft Lip Glos 021,A soft lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,44.55,3.5,Dry,Lip Gloss,Golden Hour
+BPE-0022,Soft Lip Liner 022,A soft lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,17.80,3.9,Sensitive,Lip Liners,Petal & Pearl
+BPE-0023,Soft Foundation 023,A soft foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,21.18,3.8,All,Foundations,Radiant Lab
+BPE-0024,Soft Blush 024,A soft blush sample product designed for everyday beauty routines. Fictional demonstration listing.,21.74,3.3,Oily,Blush,Rosewater Co.
+BPE-0025,Hydrating Cleanser 025,A hydrating cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,32.07,3.3,Sensitive,Cleansers,Aura Beauty
+BPE-0026,Hydrating Moisturizer 026,A hydrating moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,60.58,3.8,Combination,Moisturizers,Golden Hour
+BPE-0027,Hydrating Serum 027,A hydrating serums sample product designed for everyday beauty routines. Fictional demonstration listing.,31.74,4.8,Combination,Serums,Petal & Pearl
+BPE-0028,Hydrating Sunscreen 028,A hydrating sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,16.57,3.5,Sensitive,Sunscreens,Radiant Lab
+BPE-0029,Hydrating Lip Glos 029,A hydrating lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,40.34,4.5,Combination,Lip Gloss,Rosewater Co.
+BPE-0030,Hydrating Lip Liner 030,A hydrating lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,61.87,3.9,Dry,Lip Liners,Velvet Bloom
+BPE-0031,Hydrating Foundation 031,A hydrating foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,67.84,3.4,Combination,Foundations,Dewdrop Studio
+BPE-0032,Hydrating Blush 032,A hydrating blush sample product designed for everyday beauty routines. Fictional demonstration listing.,13.45,3.3,All,Blush,Luna Glow
+BPE-0033,Fresh Cleanser 033,A fresh cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,17.17,3.5,Combination,Cleansers,Radiant Lab
+BPE-0034,Fresh Moisturizer 034,A fresh moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,43.78,3.9,Sensitive,Moisturizers,Rosewater Co.
+BPE-0035,Fresh Serum 035,A fresh serums sample product designed for everyday beauty routines. Fictional demonstration listing.,67.77,4.2,Sensitive,Serums,Velvet Bloom
+BPE-0036,Fresh Sunscreen 036,A fresh sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,59.65,3.2,All,Sunscreens,Dewdrop Studio
+BPE-0037,Fresh Lip Glos 037,A fresh lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,48.90,4.2,Oily,Lip Gloss,Luna Glow
+BPE-0038,Fresh Lip Liner 038,A fresh lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,54.12,3.8,Oily,Lip Liners,Aura Beauty
+BPE-0039,Fresh Foundation 039,A fresh foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,34.09,4.0,Oily,Foundations,Golden Hour
+BPE-0040,Fresh Blush 040,A fresh blush sample product designed for everyday beauty routines. Fictional demonstration listing.,66.31,4.6,Sensitive,Blush,Petal & Pearl
+BPE-0041,Glow Cleanser 041,A glow cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,62.76,4.8,Oily,Cleansers,Dewdrop Studio
+BPE-0042,Glow Moisturizer 042,A glow moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,58.50,4.1,Dry,Moisturizers,Luna Glow
+BPE-0043,Glow Serum 043,A glow serums sample product designed for everyday beauty routines. Fictional demonstration listing.,17.17,4.6,Sensitive,Serums,Aura Beauty
+BPE-0044,Glow Sunscreen 044,A glow sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,65.21,4.9,All,Sunscreens,Golden Hour
+BPE-0045,Glow Lip Glos 045,A glow lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,43.94,4.1,All,Lip Gloss,Petal & Pearl
+BPE-0046,Glow Lip Liner 046,A glow lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,63.75,4.8,Oily,Lip Liners,Radiant Lab
+BPE-0047,Glow Foundation 047,A glow foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,22.37,3.6,Sensitive,Foundations,Rosewater Co.
+BPE-0048,Glow Blush 048,A glow blush sample product designed for everyday beauty routines. Fictional demonstration listing.,64.82,3.4,Combination,Blush,Velvet Bloom
+BPE-0049,Velvet Cleanser 049,A velvet cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,56.96,5.0,Sensitive,Cleansers,Golden Hour
+BPE-0050,Velvet Moisturizer 050,A velvet moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,53.95,3.4,Combination,Moisturizers,Petal & Pearl
+BPE-0051,Velvet Serum 051,A velvet serums sample product designed for everyday beauty routines. Fictional demonstration listing.,64.81,3.5,Sensitive,Serums,Radiant Lab
+BPE-0052,Velvet Sunscreen 052,A velvet sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,60.35,4.0,Dry,Sunscreens,Rosewater Co.
+BPE-0053,Velvet Lip Glos 053,A velvet lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,63.73,4.6,Dry,Lip Gloss,Velvet Bloom
+BPE-0054,Velvet Lip Liner 054,A velvet lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,50.78,3.9,Oily,Lip Liners,Dewdrop Studio
+BPE-0055,Velvet Foundation 055,A velvet foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,34.29,4.1,All,Foundations,Luna Glow
+BPE-0056,Velvet Blush 056,A velvet blush sample product designed for everyday beauty routines. Fictional demonstration listing.,22.87,3.3,All,Blush,Aura Beauty
+BPE-0057,Essential Cleanser 057,A essential cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,43.30,3.6,Dry,Cleansers,Rosewater Co.
+BPE-0058,Essential Moisturizer 058,A essential moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,8.43,4.5,All,Moisturizers,Velvet Bloom
+BPE-0059,Essential Serum 059,A essential serums sample product designed for everyday beauty routines. Fictional demonstration listing.,21.74,4.8,Oily,Serums,Dewdrop Studio
+BPE-0060,Essential Sunscreen 060,A essential sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,12.25,3.6,Combination,Sunscreens,Luna Glow
+BPE-0061,Essential Lip Glos 061,A essential lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,20.85,3.4,Sensitive,Lip Gloss,Aura Beauty
+BPE-0062,Essential Lip Liner 062,A essential lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,42.57,3.6,Combination,Lip Liners,Golden Hour
+BPE-0063,Essential Foundation 063,A essential foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,56.45,3.5,All,Foundations,Petal & Pearl
+BPE-0064,Essential Blush 064,A essential blush sample product designed for everyday beauty routines. Fictional demonstration listing.,47.54,3.8,Combination,Blush,Radiant Lab
+BPE-0065,Silky Cleanser 065,A silky cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,36.02,4.5,All,Cleansers,Luna Glow
+BPE-0066,Silky Moisturizer 066,A silky moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,11.64,4.5,All,Moisturizers,Aura Beauty
+BPE-0067,Silky Serum 067,A silky serums sample product designed for everyday beauty routines. Fictional demonstration listing.,22.92,3.5,Combination,Serums,Golden Hour
+BPE-0068,Silky Sunscreen 068,A silky sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,16.41,3.5,Combination,Sunscreens,Petal & Pearl
+BPE-0069,Silky Lip Glos 069,A silky lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,22.99,4.9,Combination,Lip Gloss,Radiant Lab
+BPE-0070,Silky Lip Liner 070,A silky lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,56.48,4.7,All,Lip Liners,Rosewater Co.
+BPE-0071,Silky Foundation 071,A silky foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,11.04,5.0,All,Foundations,Velvet Bloom
+BPE-0072,Silky Blush 072,A silky blush sample product designed for everyday beauty routines. Fictional demonstration listing.,66.14,4.9,Dry,Blush,Dewdrop Studio
+BPE-0073,Pure Cleanser 073,A pure cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,17.98,4.1,Dry,Cleansers,Petal & Pearl
+BPE-0074,Pure Moisturizer 074,A pure moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,59.88,4.8,Dry,Moisturizers,Radiant Lab
+BPE-0075,Pure Serum 075,A pure serums sample product designed for everyday beauty routines. Fictional demonstration listing.,30.74,5.0,Oily,Serums,Rosewater Co.
+BPE-0076,Pure Sunscreen 076,A pure sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,63.59,4.6,Oily,Sunscreens,Velvet Bloom
+BPE-0077,Pure Lip Glos 077,A pure lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,33.38,4.9,Sensitive,Lip Gloss,Dewdrop Studio
+BPE-0078,Pure Lip Liner 078,A pure lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,47.71,4.1,Dry,Lip Liners,Luna Glow
+BPE-0079,Pure Foundation 079,A pure foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,25.80,4.9,Sensitive,Foundations,Aura Beauty
+BPE-0080,Pure Blush 080,A pure blush sample product designed for everyday beauty routines. Fictional demonstration listing.,52.14,3.3,Oily,Blush,Golden Hour
+BPE-0081,Bright Cleanser 081,A bright cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,11.43,4.3,Sensitive,Cleansers,Velvet Bloom
+BPE-0082,Bright Moisturizer 082,A bright moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,63.16,4.2,All,Moisturizers,Dewdrop Studio
+BPE-0083,Bright Serum 083,A bright serums sample product designed for everyday beauty routines. Fictional demonstration listing.,65.65,3.3,Dry,Serums,Luna Glow
+BPE-0084,Bright Sunscreen 084,A bright sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,12.11,3.3,Dry,Sunscreens,Aura Beauty
+BPE-0085,Bright Lip Glos 085,A bright lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,32.23,4.9,Sensitive,Lip Gloss,Golden Hour
+BPE-0086,Bright Lip Liner 086,A bright lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,22.77,4.3,Sensitive,Lip Liners,Petal & Pearl
+BPE-0087,Bright Foundation 087,A bright foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,12.92,4.4,Sensitive,Foundations,Radiant Lab
+BPE-0088,Bright Blush 088,A bright blush sample product designed for everyday beauty routines. Fictional demonstration listing.,39.37,4.9,Dry,Blush,Rosewater Co.
+BPE-0089,Calm Cleanser 089,A calm cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,48.18,3.8,Oily,Cleansers,Aura Beauty
+BPE-0090,Calm Moisturizer 090,A calm moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,31.75,4.4,Oily,Moisturizers,Golden Hour
+BPE-0091,Calm Serum 091,A calm serums sample product designed for everyday beauty routines. Fictional demonstration listing.,35.43,4.9,All,Serums,Petal & Pearl
+BPE-0092,Calm Sunscreen 092,A calm sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,8.56,4.3,Sensitive,Sunscreens,Radiant Lab
+BPE-0093,Calm Lip Glos 093,A calm lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,67.77,3.3,Dry,Lip Gloss,Rosewater Co.
+BPE-0094,Calm Lip Liner 094,A calm lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,38.35,3.4,Oily,Lip Liners,Velvet Bloom
+BPE-0095,Calm Foundation 095,A calm foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,60.85,4.8,Oily,Foundations,Dewdrop Studio
+BPE-0096,Calm Blush 096,A calm blush sample product designed for everyday beauty routines. Fictional demonstration listing.,25.10,4.0,Sensitive,Blush,Luna Glow
+BPE-0097,Dream Cleanser 097,A dream cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,50.21,4.3,Sensitive,Cleansers,Radiant Lab
+BPE-0098,Dream Moisturizer 098,A dream moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,8.47,4.7,Oily,Moisturizers,Rosewater Co.
+BPE-0099,Dream Serum 099,A dream serums sample product designed for everyday beauty routines. Fictional demonstration listing.,63.91,3.4,Dry,Serums,Velvet Bloom
+BPE-0100,Dream Sunscreen 100,A dream sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,23.87,4.8,Sensitive,Sunscreens,Dewdrop Studio
+BPE-0101,Dream Lip Glos 101,A dream lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,17.33,3.7,Dry,Lip Gloss,Luna Glow
+BPE-0102,Dream Lip Liner 102,A dream lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,51.06,3.6,Oily,Lip Liners,Aura Beauty
+BPE-0103,Dream Foundation 103,A dream foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,38.32,3.7,All,Foundations,Golden Hour
+BPE-0104,Dream Blush 104,A dream blush sample product designed for everyday beauty routines. Fictional demonstration listing.,13.54,4.0,Oily,Blush,Petal & Pearl
+BPE-0105,Bloom Cleanser 105,A bloom cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,10.65,3.8,Dry,Cleansers,Dewdrop Studio
+BPE-0106,Bloom Moisturizer 106,A bloom moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,46.23,3.7,Combination,Moisturizers,Luna Glow
+BPE-0107,Bloom Serum 107,A bloom serums sample product designed for everyday beauty routines. Fictional demonstration listing.,41.10,4.0,All,Serums,Aura Beauty
+BPE-0108,Bloom Sunscreen 108,A bloom sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,14.71,4.9,Dry,Sunscreens,Golden Hour
+BPE-0109,Bloom Lip Glos 109,A bloom lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,40.74,4.7,Sensitive,Lip Gloss,Petal & Pearl
+BPE-0110,Bloom Lip Liner 110,A bloom lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,41.15,4.0,All,Lip Liners,Radiant Lab
+BPE-0111,Bloom Foundation 111,A bloom foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,26.50,4.8,All,Foundations,Rosewater Co.
+BPE-0112,Bloom Blush 112,A bloom blush sample product designed for everyday beauty routines. Fictional demonstration listing.,61.94,3.6,Dry,Blush,Velvet Bloom
+BPE-0113,Luminous Cleanser 113,A luminous cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,48.02,3.8,Sensitive,Cleansers,Golden Hour
+BPE-0114,Luminous Moisturizer 114,A luminous moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,61.05,3.9,Sensitive,Moisturizers,Petal & Pearl
+BPE-0115,Luminous Serum 115,A luminous serums sample product designed for everyday beauty routines. Fictional demonstration listing.,52.97,4.9,Dry,Serums,Radiant Lab
+BPE-0116,Luminous Sunscreen 116,A luminous sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,59.88,5.0,Dry,Sunscreens,Rosewater Co.
+BPE-0117,Luminous Lip Glos 117,A luminous lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,60.88,3.2,Oily,Lip Gloss,Velvet Bloom
+BPE-0118,Luminous Lip Liner 118,A luminous lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,54.94,3.9,Dry,Lip Liners,Dewdrop Studio
+BPE-0119,Luminous Foundation 119,A luminous foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,24.01,4.6,All,Foundations,Luna Glow
+BPE-0120,Luminous Blush 120,A luminous blush sample product designed for everyday beauty routines. Fictional demonstration listing.,30.95,3.3,Combination,Blush,Aura Beauty
+BPE-0121,Classic Cleanser 121,A classic cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,21.35,4.7,Combination,Cleansers,Rosewater Co.
+BPE-0122,Classic Moisturizer 122,A classic moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,28.98,4.7,Dry,Moisturizers,Velvet Bloom
+BPE-0123,Classic Serum 123,A classic serums sample product designed for everyday beauty routines. Fictional demonstration listing.,21.38,4.4,Combination,Serums,Dewdrop Studio
+BPE-0124,Classic Sunscreen 124,A classic sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,27.70,4.8,Oily,Sunscreens,Luna Glow
+BPE-0125,Classic Lip Glos 125,A classic lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,29.07,4.1,Sensitive,Lip Gloss,Aura Beauty
+BPE-0126,Classic Lip Liner 126,A classic lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,27.87,3.2,Oily,Lip Liners,Golden Hour
+BPE-0127,Classic Foundation 127,A classic foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,18.71,4.9,Oily,Foundations,Petal & Pearl
+BPE-0128,Classic Blush 128,A classic blush sample product designed for everyday beauty routines. Fictional demonstration listing.,10.30,4.3,Oily,Blush,Radiant Lab
+BPE-0129,Dewy Cleanser 129,A dewy cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,51.71,3.8,Sensitive,Cleansers,Luna Glow
+BPE-0130,Dewy Moisturizer 130,A dewy moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,67.05,3.4,Sensitive,Moisturizers,Aura Beauty
+BPE-0131,Dewy Serum 131,A dewy serums sample product designed for everyday beauty routines. Fictional demonstration listing.,19.40,3.3,Combination,Serums,Golden Hour
+BPE-0132,Dewy Sunscreen 132,A dewy sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,8.10,4.9,Sensitive,Sunscreens,Petal & Pearl
+BPE-0133,Dewy Lip Glos 133,A dewy lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,49.21,4.9,Dry,Lip Gloss,Radiant Lab
+BPE-0134,Dewy Lip Liner 134,A dewy lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,29.85,3.3,Oily,Lip Liners,Rosewater Co.
+BPE-0135,Dewy Foundation 135,A dewy foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,45.39,4.4,All,Foundations,Velvet Bloom
+BPE-0136,Dewy Blush 136,A dewy blush sample product designed for everyday beauty routines. Fictional demonstration listing.,51.19,3.7,Oily,Blush,Dewdrop Studio
+BPE-0137,Cloud Cleanser 137,A cloud cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,48.01,3.8,Oily,Cleansers,Petal & Pearl
+BPE-0138,Cloud Moisturizer 138,A cloud moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,41.26,3.5,Combination,Moisturizers,Radiant Lab
+BPE-0139,Cloud Serum 139,A cloud serums sample product designed for everyday beauty routines. Fictional demonstration listing.,48.64,4.8,Sensitive,Serums,Rosewater Co.
+BPE-0140,Cloud Sunscreen 140,A cloud sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,42.15,3.9,All,Sunscreens,Velvet Bloom
+BPE-0141,Cloud Lip Glos 141,A cloud lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,26.23,3.6,Sensitive,Lip Gloss,Dewdrop Studio
+BPE-0142,Cloud Lip Liner 142,A cloud lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,44.40,3.8,Combination,Lip Liners,Luna Glow
+BPE-0143,Cloud Foundation 143,A cloud foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,34.53,3.6,Combination,Foundations,Aura Beauty
+BPE-0144,Cloud Blush 144,A cloud blush sample product designed for everyday beauty routines. Fictional demonstration listing.,55.62,4.9,Dry,Blush,Golden Hour
+BPE-0145,Satin Cleanser 145,A satin cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,47.53,3.7,Sensitive,Cleansers,Velvet Bloom
+BPE-0146,Satin Moisturizer 146,A satin moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,28.11,4.7,Dry,Moisturizers,Dewdrop Studio
+BPE-0147,Satin Serum 147,A satin serums sample product designed for everyday beauty routines. Fictional demonstration listing.,48.37,3.6,Dry,Serums,Luna Glow
+BPE-0148,Satin Sunscreen 148,A satin sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,16.84,3.3,Combination,Sunscreens,Aura Beauty
+BPE-0149,Satin Lip Glos 149,A satin lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,44.68,4.6,Combination,Lip Gloss,Golden Hour
+BPE-0150,Satin Lip Liner 150,A satin lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,32.87,4.3,Dry,Lip Liners,Petal & Pearl
+BPE-0151,Satin Foundation 151,A satin foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,51.10,3.9,Combination,Foundations,Radiant Lab
+BPE-0152,Satin Blush 152,A satin blush sample product designed for everyday beauty routines. Fictional demonstration listing.,22.64,4.4,All,Blush,Rosewater Co.
+BPE-0153,Gentle Cleanser 153,A gentle cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,61.56,4.7,All,Cleansers,Aura Beauty
+BPE-0154,Gentle Moisturizer 154,A gentle moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,54.71,3.6,Sensitive,Moisturizers,Golden Hour
+BPE-0155,Gentle Serum 155,A gentle serums sample product designed for everyday beauty routines. Fictional demonstration listing.,35.87,4.2,All,Serums,Petal & Pearl
+BPE-0156,Gentle Sunscreen 156,A gentle sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,35.39,4.6,Sensitive,Sunscreens,Radiant Lab
+BPE-0157,Gentle Lip Glos 157,A gentle lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,67.27,4.3,Combination,Lip Gloss,Rosewater Co.
+BPE-0158,Gentle Lip Liner 158,A gentle lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,44.76,4.5,Sensitive,Lip Liners,Velvet Bloom
+BPE-0159,Gentle Foundation 159,A gentle foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,33.60,4.8,Combination,Foundations,Dewdrop Studio
+BPE-0160,Gentle Blush 160,A gentle blush sample product designed for everyday beauty routines. Fictional demonstration listing.,61.83,4.5,Combination,Blush,Luna Glow
+BPE-0161,Nourishing Cleanser 161,A nourishing cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,35.00,4.6,Oily,Cleansers,Radiant Lab
+BPE-0162,Nourishing Moisturizer 162,A nourishing moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,53.95,4.1,Dry,Moisturizers,Rosewater Co.
+BPE-0163,Nourishing Serum 163,A nourishing serums sample product designed for everyday beauty routines. Fictional demonstration listing.,24.48,3.3,Oily,Serums,Velvet Bloom
+BPE-0164,Nourishing Sunscreen 164,A nourishing sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,22.07,3.8,Sensitive,Sunscreens,Dewdrop Studio
+BPE-0165,Nourishing Lip Glos 165,A nourishing lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,12.83,3.5,Combination,Lip Gloss,Luna Glow
+BPE-0166,Nourishing Lip Liner 166,A nourishing lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,49.64,4.5,All,Lip Liners,Aura Beauty
+BPE-0167,Nourishing Foundation 167,A nourishing foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,32.89,3.8,Combination,Foundations,Golden Hour
+BPE-0168,Nourishing Blush 168,A nourishing blush sample product designed for everyday beauty routines. Fictional demonstration listing.,32.95,3.6,Combination,Blush,Petal & Pearl
+BPE-0169,Golden Cleanser 169,A golden cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,31.37,4.6,All,Cleansers,Dewdrop Studio
+BPE-0170,Golden Moisturizer 170,A golden moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,59.40,4.6,Combination,Moisturizers,Luna Glow
+BPE-0171,Golden Serum 171,A golden serums sample product designed for everyday beauty routines. Fictional demonstration listing.,36.62,4.9,Oily,Serums,Aura Beauty
+BPE-0172,Golden Sunscreen 172,A golden sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,53.21,4.7,Combination,Sunscreens,Golden Hour
+BPE-0173,Golden Lip Glos 173,A golden lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,40.29,4.5,Sensitive,Lip Gloss,Petal & Pearl
+BPE-0174,Golden Lip Liner 174,A golden lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,61.87,4.1,Oily,Lip Liners,Radiant Lab
+BPE-0175,Golden Foundation 175,A golden foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,34.15,3.3,Oily,Foundations,Rosewater Co.
+BPE-0176,Golden Blush 176,A golden blush sample product designed for everyday beauty routines. Fictional demonstration listing.,48.13,4.6,Dry,Blush,Velvet Bloom
+BPE-0177,Petal Cleanser 177,A petal cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,58.43,4.9,Sensitive,Cleansers,Golden Hour
+BPE-0178,Petal Moisturizer 178,A petal moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,40.05,4.8,Sensitive,Moisturizers,Petal & Pearl
+BPE-0179,Petal Serum 179,A petal serums sample product designed for everyday beauty routines. Fictional demonstration listing.,41.86,3.2,Combination,Serums,Radiant Lab
+BPE-0180,Petal Sunscreen 180,A petal sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,16.14,4.0,All,Sunscreens,Rosewater Co.
+BPE-0181,Petal Lip Glos 181,A petal lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,23.61,3.8,Combination,Lip Gloss,Velvet Bloom
+BPE-0182,Petal Lip Liner 182,A petal lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,27.61,4.6,Combination,Lip Liners,Dewdrop Studio
+BPE-0183,Petal Foundation 183,A petal foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,24.70,4.9,Combination,Foundations,Luna Glow
+BPE-0184,Petal Blush 184,A petal blush sample product designed for everyday beauty routines. Fictional demonstration listing.,23.14,3.3,All,Blush,Aura Beauty
+BPE-0185,Signature Cleanser 185,A signature cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,52.94,3.3,Oily,Cleansers,Rosewater Co.
+BPE-0186,Signature Moisturizer 186,A signature moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,21.45,3.3,All,Moisturizers,Velvet Bloom
+BPE-0187,Signature Serum 187,A signature serums sample product designed for everyday beauty routines. Fictional demonstration listing.,53.25,4.9,Dry,Serums,Dewdrop Studio
+BPE-0188,Signature Sunscreen 188,A signature sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,58.35,4.3,Dry,Sunscreens,Luna Glow
+BPE-0189,Signature Lip Glos 189,A signature lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,15.57,4.4,Sensitive,Lip Gloss,Aura Beauty
+BPE-0190,Signature Lip Liner 190,A signature lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,64.87,4.0,Oily,Lip Liners,Golden Hour
+BPE-0191,Signature Foundation 191,A signature foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,54.01,3.5,Sensitive,Foundations,Petal & Pearl
+BPE-0192,Signature Blush 192,A signature blush sample product designed for everyday beauty routines. Fictional demonstration listing.,65.82,4.5,Dry,Blush,Radiant Lab
+BPE-0193,Rose Cleanser 193,A rose cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,65.88,3.4,All,Cleansers,Luna Glow
+BPE-0194,Rose Moisturizer 194,A rose moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,63.73,4.2,Combination,Moisturizers,Aura Beauty
+BPE-0195,Rose Serum 195,A rose serums sample product designed for everyday beauty routines. Fictional demonstration listing.,31.80,4.5,All,Serums,Golden Hour
+BPE-0196,Rose Sunscreen 196,A rose sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,43.53,4.7,Dry,Sunscreens,Petal & Pearl
+BPE-0197,Rose Lip Glos 197,A rose lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,14.11,4.6,Sensitive,Lip Gloss,Radiant Lab
+BPE-0198,Rose Lip Liner 198,A rose lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,56.33,4.6,Sensitive,Lip Liners,Rosewater Co.
+BPE-0199,Rose Foundation 199,A rose foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,54.96,3.8,Combination,Foundations,Velvet Bloom
+BPE-0200,Rose Blush 200,A rose blush sample product designed for everyday beauty routines. Fictional demonstration listing.,47.69,3.3,Oily,Blush,Dewdrop Studio
+BPE-0201,Daily Cleanser 201,A daily cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,8.76,4.0,Combination,Cleansers,Petal & Pearl
+BPE-0202,Daily Moisturizer 202,A daily moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,14.33,4.9,Combination,Moisturizers,Radiant Lab
+BPE-0203,Daily Serum 203,A daily serums sample product designed for everyday beauty routines. Fictional demonstration listing.,50.44,4.0,Sensitive,Serums,Rosewater Co.
+BPE-0204,Daily Sunscreen 204,A daily sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,65.93,3.7,Sensitive,Sunscreens,Velvet Bloom
+BPE-0205,Daily Lip Glos 205,A daily lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,54.48,4.0,Sensitive,Lip Gloss,Dewdrop Studio
+BPE-0206,Daily Lip Liner 206,A daily lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,24.10,4.7,All,Lip Liners,Luna Glow
+BPE-0207,Daily Foundation 207,A daily foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,24.74,4.0,Combination,Foundations,Aura Beauty
+BPE-0208,Daily Blush 208,A daily blush sample product designed for everyday beauty routines. Fictional demonstration listing.,42.19,4.4,Oily,Blush,Golden Hour
+BPE-0209,Radiant Cleanser 209,A radiant cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,9.72,4.7,Dry,Cleansers,Velvet Bloom
+BPE-0210,Radiant Moisturizer 210,A radiant moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,37.25,3.8,Oily,Moisturizers,Dewdrop Studio
+BPE-0211,Radiant Serum 211,A radiant serums sample product designed for everyday beauty routines. Fictional demonstration listing.,28.42,4.8,Oily,Serums,Luna Glow
+BPE-0212,Radiant Sunscreen 212,A radiant sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,41.35,4.1,Dry,Sunscreens,Aura Beauty
+BPE-0213,Radiant Lip Glos 213,A radiant lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,13.14,4.5,Combination,Lip Gloss,Golden Hour
+BPE-0214,Radiant Lip Liner 214,A radiant lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,41.31,3.6,Combination,Lip Liners,Petal & Pearl
+BPE-0215,Radiant Foundation 215,A radiant foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,46.75,4.1,All,Foundations,Radiant Lab
+BPE-0216,Radiant Blush 216,A radiant blush sample product designed for everyday beauty routines. Fictional demonstration listing.,13.58,3.6,Dry,Blush,Rosewater Co.
+BPE-0217,Soft Cleanser 217,A soft cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,26.37,4.2,Combination,Cleansers,Aura Beauty
+BPE-0218,Soft Moisturizer 218,A soft moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,41.21,3.8,Sensitive,Moisturizers,Golden Hour
+BPE-0219,Soft Serum 219,A soft serums sample product designed for everyday beauty routines. Fictional demonstration listing.,27.85,4.5,Oily,Serums,Petal & Pearl
+BPE-0220,Soft Sunscreen 220,A soft sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,26.40,3.6,Dry,Sunscreens,Radiant Lab
+BPE-0221,Soft Lip Glos 221,A soft lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,26.93,4.5,Dry,Lip Gloss,Rosewater Co.
+BPE-0222,Soft Lip Liner 222,A soft lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,19.49,4.5,Oily,Lip Liners,Velvet Bloom
+BPE-0223,Soft Foundation 223,A soft foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,51.48,5.0,Sensitive,Foundations,Dewdrop Studio
+BPE-0224,Soft Blush 224,A soft blush sample product designed for everyday beauty routines. Fictional demonstration listing.,43.81,5.0,Dry,Blush,Luna Glow
+BPE-0225,Hydrating Cleanser 225,A hydrating cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,25.77,3.8,Oily,Cleansers,Radiant Lab
+BPE-0226,Hydrating Moisturizer 226,A hydrating moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,8.85,4.2,Oily,Moisturizers,Rosewater Co.
+BPE-0227,Hydrating Serum 227,A hydrating serums sample product designed for everyday beauty routines. Fictional demonstration listing.,10.73,3.3,Oily,Serums,Velvet Bloom
+BPE-0228,Hydrating Sunscreen 228,A hydrating sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,49.85,3.4,Combination,Sunscreens,Dewdrop Studio
+BPE-0229,Hydrating Lip Glos 229,A hydrating lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,14.16,3.2,Oily,Lip Gloss,Luna Glow
+BPE-0230,Hydrating Lip Liner 230,A hydrating lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,36.16,4.0,Dry,Lip Liners,Aura Beauty
+BPE-0231,Hydrating Foundation 231,A hydrating foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,65.93,3.7,Combination,Foundations,Golden Hour
+BPE-0232,Hydrating Blush 232,A hydrating blush sample product designed for everyday beauty routines. Fictional demonstration listing.,14.85,3.3,Combination,Blush,Petal & Pearl
+BPE-0233,Fresh Cleanser 233,A fresh cleansers sample product designed for everyday beauty routines. Fictional demonstration listing.,12.44,4.3,All,Cleansers,Dewdrop Studio
+BPE-0234,Fresh Moisturizer 234,A fresh moisturizers sample product designed for everyday beauty routines. Fictional demonstration listing.,17.10,4.7,Oily,Moisturizers,Luna Glow
+BPE-0235,Fresh Serum 235,A fresh serums sample product designed for everyday beauty routines. Fictional demonstration listing.,13.11,3.6,Sensitive,Serums,Aura Beauty
+BPE-0236,Fresh Sunscreen 236,A fresh sunscreens sample product designed for everyday beauty routines. Fictional demonstration listing.,53.87,4.3,Sensitive,Sunscreens,Golden Hour
+BPE-0237,Fresh Lip Glos 237,A fresh lip gloss sample product designed for everyday beauty routines. Fictional demonstration listing.,21.54,4.1,Combination,Lip Gloss,Petal & Pearl
+BPE-0238,Fresh Lip Liner 238,A fresh lip liners sample product designed for everyday beauty routines. Fictional demonstration listing.,62.51,3.7,Sensitive,Lip Liners,Radiant Lab
+BPE-0239,Fresh Foundation 239,A fresh foundations sample product designed for everyday beauty routines. Fictional demonstration listing.,67.40,3.7,Sensitive,Foundations,Rosewater Co.
+BPE-0240,Fresh Blush 240,A fresh blush sample product designed for everyday beauty routines. Fictional demonstration listing.,11.61,4.9,All,Blush,Velvet Bloom

@@ -1,0 +1,5 @@
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3"><h1>Explore brands</h1><%= link_to "View country map", brand_map_path, class: "btn btn-outline-secondary" %></div>
+<p class="text-muted">Browse all sample brands.</p>
+<div class="row g-3 mt-2"><% @brands.each do |brand| %>
+  <div class="col-md-4"><div class="card h-100 p-4"><h2 class="h4"><%= link_to brand.name, brand_path(brand) %></h2><p>Country: <%= brand.country %></p><span class="text-muted small"><%= brand.products.count %> products</span></div></div>
+<% end %></div>

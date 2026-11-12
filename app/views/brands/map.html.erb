@@ -1,0 +1,71 @@
+<% content_for :head do %>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+<% end %>
+
+<%= link_to "← All brands", brands_path, class: "d-inline-block mb-3" %>
+<h1>Map of sample brand countries</h1>
+<p class="text-muted">Markers show approximate country centers for fictional sample brands, not verified office or store locations. Leaflet and OpenStreetMap provide the map display, so an internet connection is needed for the map tiles.</p>
+<p id="brand-map-help" class="visually-hidden">Use the arrow keys to pan the map, plus and minus to zoom, and Tab to reach country markers. Press Enter or Space to open a marker. A complete list of linked brands follows the map.</p>
+
+<div id="brand-map" class="rounded border mb-4" data-brand-locations="<%= @map_locations.to_json %>" role="region" aria-label="Map showing countries associated with sample brands" aria-describedby="brand-map-help"></div>
+
+<% if @unmapped_countries.any? %>
+  <div class="alert alert-warning">No approximate map coordinates are configured for: <%= @unmapped_countries.join(", ") %>.</div>
+<% end %>
+
+<h2 class="h4">Brands by country</h2>
+<div class="row g-3">
+  <% @brands_by_country.each do |country, brands| %>
+    <section class="col-md-4">
+      <div class="card h-100 p-3">
+        <h3 class="h5"><%= country %></h3>
+        <ul class="mb-0">
+          <% brands.each do |brand| %>
+            <li><%= link_to brand.name, brand_path(brand) %></li>
+          <% end %>
+        </ul>
+      </div>
+    </section>
+  <% end %>
+</div>
+
+<%= javascript_include_tag "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", integrity: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=", crossorigin: "anonymous" %>
+<script>
+  const mapElement = document.getElementById("brand-map");
+  const locations = JSON.parse(mapElement.dataset.brandLocations);
+  const map = L.map(mapElement, { scrollWheelZoom: false, keyboard: true }).setView([20, 0], 2);
+  if (locations.length > 0) {
+    map.fitBounds(
+      L.latLngBounds(locations.map((location) => [location.latitude, location.longitude])),
+      { padding: [24, 24], maxZoom: 3 }
+    );
+  }
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+  }).addTo(map);
+
+  locations.forEach((location) => {
+    const popup = document.createElement("div");
+    const heading = document.createElement("strong");
+    heading.textContent = location.country;
+    popup.appendChild(heading);
+
+    const list = document.createElement("ul");
+    location.brands.forEach((brand) => {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = brand.path;
+      link.textContent = brand.name;
+      item.appendChild(link);
+      list.appendChild(item);
+    });
+    popup.appendChild(list);
+
+    L.marker([location.latitude, location.longitude], {
+      alt: `Sample brands in ${location.country}`,
+      title: `Sample brands in ${location.country}`
+    }).addTo(map).bindPopup(popup);
+  });
+</script>

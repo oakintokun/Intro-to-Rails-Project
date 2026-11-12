@@ -1,0 +1,21 @@
+<%= link_to "← All products", products_path, class: "d-inline-block mb-4" %>
+<div class="row g-4 align-items-start">
+  <div class="col-md-4"><div class="product-art product-art-large rounded-4" aria-hidden="true">✦</div></div>
+  <div class="col-md-8">
+    <div class="eyebrow"><%= @product.category.name %></div>
+    <h1 class="display-6 fw-bold"><%= @product.name %></h1>
+    <p class="lead"><%= @product.description %></p>
+    <p class="fs-3 fw-bold"><%= number_to_currency(@product.price) %></p>
+    <dl class="row">
+      <dt class="col-sm-3">Brand</dt><dd class="col-sm-9"><%= link_to @product.brand.name, brand_path(@product.brand) %></dd>
+      <dt class="col-sm-3">Category</dt><dd class="col-sm-9"><%= link_to @product.category.name, category_path(@product.category) %></dd>
+      <dt class="col-sm-3">Skin type</dt><dd class="col-sm-9"><%= @product.skin_type %></dd>
+      <dt class="col-sm-3">Sample rating</dt><dd class="col-sm-9">★ <%= @product.rating %> / 5</dd>
+      <dt class="col-sm-3">Dataset ID</dt><dd class="col-sm-9"><%= @product.source_code %></dd>
+    </dl>
+  </div>
+</div>
+<% if @related.any? %>
+  <h2 class="h3 mt-5 mb-3">More in <%= @product.category.name %></h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4"><%= render partial: "products/product", collection: @related %></div>
+<% end %>
