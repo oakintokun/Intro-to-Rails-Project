@@ -1,0 +1,21 @@
+name: Rails tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - name: Prepare test database
+        run: bundle exec ruby bin/rails db:prepare
+        env:
+          RAILS_ENV: test
+      - name: Run tests
+        run: bundle exec ruby bin/rails test
