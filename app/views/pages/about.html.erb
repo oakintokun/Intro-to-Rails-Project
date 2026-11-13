@@ -1,7 +1,7 @@
 <h1>About the Beauty Product Explorer</h1>
 <p class="lead">A Ruby on Rails application for exploring a structured educational beauty-product dataset.</p>
 <h2 class="h4 mt-4">Where does the data come from?</h2>
-<p>This project imports three local CSV datasets: <code>categories.csv</code>, <code>brands.csv</code>, and <code>products.csv</code>. The data was generated specifically for this project and is <strong>fictional educational sample data</strong>, not real inventory, verified retail prices, or customer reviews. Each CSV is a separate source file, all stored in <code>db/data</code>.</p>
+<p>This project imports three separate CSV data sources from <code>db/data</code>: <code>categories.csv</code> (8 rows), <code>brands.csv</code> (8 rows), and <code>products.csv</code> (240 rows), for 256 seeded records total. The assignment rubric counts multiple CSV files as separate data sources. All records were generated for this project and are <strong>fictional educational sample data</strong>, not real inventory, verified retail prices, customer reviews, or business locations.</p>
 <h2 class="h4 mt-4">How is it structured?</h2>
 <p>Categories contain a name and description. Brands contain a name and country. Products contain a name, description, price, sample rating, skin type, unique source code, and references to both a brand and a category. One brand has many products, and one category has many products. Each product belongs to one brand and one category.</p>
 <h2 class="h4 mt-4">How are the files connected?</h2>
@@ -9,5 +9,5 @@
 <h2 class="h4 mt-4">ERD</h2>
 <pre class="bg-light border rounded p-3">BRANDS (id PK, name, country)  1 ──── * PRODUCTS (id PK, brand_id FK, category_id FK, name, description, price, rating, skin_type, source_code) * ──── 1 CATEGORIES (id PK, name, description)</pre>
 <h2 class="h4 mt-4">Mapping</h2>
-<p><%= link_to "View the sample brand country map", brand_map_path %>. Map markers use approximate country centers from the fictional brand-country values and do not represent verified business locations.</p>
+<p><%= link_to "View the sample brand country map", brand_map_path %>. Its approximate country-center markers are only a data-visualization demonstration; they do not represent imported or verified locations and are not claimed for rubric 3.6.</p>
 <p>For more details, see <code>docs/DATASET_DESCRIPTION.md</code> and <code>docs/ERD.md</code>.</p>

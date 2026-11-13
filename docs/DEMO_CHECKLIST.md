@@ -15,14 +15,15 @@
 - [ ] 3.3 Associated data — click brand/category links from a product.
 - [ ] 3.4 Hierarchical navigation — go category → product → category.
 - [ ] 3.5 Pagination — click page 2 on products.
-- [ ] 3.6 Mapping — open Brands → View country map; explain that markers are approximate country centers for fictional sample data.
+- [ ] 3.6 Mapping — not claimed for rubric credit: the project has no sourced address/GPS location data. The map is a fictional-data demonstration only.
 - [ ] 4.1 Simple search — search `Glow`.
 - [ ] 4.2 Hierarchical search — select a category and search.
-- [ ] 5.1 HTML validity — validate generated HTML using W3C Nu Validator; fix any issues.
+- [ ] 5.1 HTML validity — local structural checks passed; also validate representative generated pages with the W3C Nu HTML Checker if required, and fix any reported errors before demo.
 - [ ] 5.2 ERB conditional — show `if @products.any?` in index.
 - [ ] 5.3 Bootstrap grid — show `row` and `col-*` classes in views.
 - [ ] Automated tests — run `ruby bin/rails test` (Rails prepares the test database automatically).
-- [ ] 6.1 GitHub — create your own repo and push commits.
-- [ ] 6.2 20 commits — make 20 authentic, meaningful commits as you develop and improve the project.
+- [x] 6.1 GitHub — repository created and pushed.
+- [x] 6.2 20 commits — 20 commits are present on `main`.
+- [ ] GitHub Actions — push the `config/storage.yml` fix and verify the Rails tests workflow passes.
 
-**Git requirements are not completed by this ZIP.** Create your own repository, push it to GitHub, and make your own meaningful commits. Mapping is an approximate visualization of the sample brands' country fields, not verified business locations. Final grading is up to the instructor.
+The map is an approximate visualization of fictional country fields, not verified locations; do not claim it fulfills rubric 3.6. Final grading and conditional criteria are up to the instructor.

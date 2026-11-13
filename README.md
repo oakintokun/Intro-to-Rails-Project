@@ -1,57 +1,64 @@
-# Beauty Product Explorer — Rails Intro Project
+# Beauty Product Explorer
 
-A Ruby on Rails web application for browsing a **fictional** beauty product dataset. Built for the Rails Intro Project rubric.
+A Ruby on Rails application for browsing an educational beauty-product dataset. The application, seed data, and automated tests are implemented for the Rails Intro Project.
 
-## Windows setup (VS Code PowerShell)
+## Run the application
 
-1. Extract the ZIP and open the **Beauty_Product_Explorer** folder in VS Code.
-2. Confirm Ruby and Bundler are installed: `ruby -v` and `bundle -v`.
-3. Run `bundle install` (requires internet access).
-4. Run `ruby bin/rails db:prepare` to create the database and run migrations/seeds. If records are missing, run `ruby bin/rails db:seed`.
-5. Start the app with `ruby bin/rails server`.
-6. Open http://127.0.0.1:3000/ in your browser.
+Requirements: Ruby 3.4 or newer, Bundler, and internet access to install gems and load Bootstrap/map assets.
 
-The ZIP does not include downloaded gems or a prebuilt database. Rails and gems must be installed on your computer. The app has been smoke-tested with Ruby 3.4.10 and Rails 8.1.4.1 on Linux, including database setup, repeatable seeding, search/filtering, pagination, the main pages, and the brand-country map. Windows-specific setup has not been tested; if you encounter a startup error, share the terminal output for troubleshooting.
+```powershell
+bundle install
+ruby bin/rails db:prepare
+ruby bin/rails server
+```
 
-## Project data
+Open http://127.0.0.1:3000/. `db:prepare` creates the SQLite database, applies migrations, and imports the seed data. Re-running the seed is safe.
 
-- 8 fictional categories
-- 8 fictional brands
-- 240 fictional products
-- 256 database rows total after seeding
-- 3 local CSV input files in `db/data/`
+## Dataset and database
 
-The seed script is idempotent: running it again updates existing records rather than creating duplicates.
+The project has three separate CSV source files in `db/data/`:
 
-## Tests
+| Source file | Rows | Fields |
+|---|---:|---|
+| `categories.csv` | 8 | `name`, `description` |
+| `brands.csv` | 8 | `name`, `country` |
+| `products.csv` | 240 | `source_code`, `name`, `description`, `price`, `rating`, `skin_type`, `category_name`, `brand_name` |
 
-Run the Rails test suite with:
+The rubric explicitly counts multiple CSV files as separate data sources. All 256 rows are fictional educational sample data generated for this project; product names, brands, prices, ratings, and brand-country values are not verified real-world information.
+
+The database has three models/tables: `Category`, `Brand`, and `Product`. A category has many products, a brand has many products, and each product belongs to one category and one brand. The product CSV links to the category and brand CSVs through their names; `db/seeds.rb` resolves these to foreign keys. See [the dataset description](docs/DATASET_DESCRIPTION.md) and [the ERD](docs/ERD.md).
+
+## Application features
+
+- Product, category, and brand collection and detail pages
+- Product search across name, description, and brand, with category and brand filters
+- Pagination and navigation between products and their associated category and brand pages
+- An About page and responsive Bootstrap navigation
+- A brand-country map demonstration and text list
+
+**Mapping rubric note:** the country map uses approximate country centers for fictional sample values. The assignment's mapping criterion (3.6) requires imported location data such as addresses or GPS coordinates and says not to add a random map for credit. This demonstration map is therefore **not claimed as satisfying rubric 3.6**. To claim those marks, replace or augment the sample data with appropriately sourced, real location data and document its provenance.
+
+## Tests and GitHub Actions
+
+Run the Rails tests with:
 
 ```powershell
 ruby bin/rails test
 ```
 
-Rails prepares the test database automatically. Tests cover model validation and associations, CSV seed imports, product search and filtering, wildcard escaping, pagination, collection and member pages, map behavior and accessibility, and responsive navigation. A GitHub Actions workflow runs the test suite for pushes and pull requests.
+The suite covers validations, associations, seed imports, search, filters, pagination, pages, the map, and navigation. The GitHub Actions test job previously failed because Rails eager loading requires `config/storage.yml`; that configuration has now been added. Locally, all **32 tests and 197 assertions pass with `CI=true`**. Push the fix to GitHub and confirm the Actions run turns green before treating the remote CI check as passed.
 
-The brand map uses approximate country-center markers for fictional sample data. Leaflet and OpenStreetMap provide the map display and tiles, so an internet connection is needed to view the map.
+## Rubric evidence and remaining checks
 
-## Rubric evidence
+- **1.1–1.2:** [Dataset description](docs/DATASET_DESCRIPTION.md) and [ERD](docs/ERD.md).
+- **1.3–1.6:** Three models/tables, two one-to-many associations, and model validations.
+- **1.7:** Three separate CSV files and 256 total seeded rows; the rubric says multiple CSVs count as separate data sources.
+- **2.1–2.2:** About page and site-wide responsive navigation.
+- **3.1–3.5:** Collection/detail pages, associated and hierarchical navigation, and pagination.
+- **3.6:** Not claimed; the synthetic dataset has no sourced address/GPS location data.
+- **4.1–4.2:** Text search and category/brand filters.
+- **5.2–5.3:** ERB conditionals and Bootstrap grid layouts.
+- **5.1:** Local structural HTML checks passed for representative rendered pages. A separate W3C Nu HTML Checker run has not yet been recorded; complete it before submission if your instructor requires that specific checker.
+- **6.1–6.2:** [GitHub repository](https://github.com/oakintokun/Intro-to-Rails-Project) has 20 commits on `main`. The latest code changes, including the CI fix, must still be committed and pushed.
 
-- `docs/DATASET_DESCRIPTION.md` — 1.1
-- `docs/ERD.md` — 1.2
-- `docs/DEMO_CHECKLIST.md` — presentation checklist
-- Models and migrations — 1.3–1.6
-- `db/seeds.rb` and `db/data/*.csv` — 1.7
-- Views/controllers — sections 2–5
-- `/brands/map` — 3.6, approximate map of sample brand countries
-- `test/` — automated checks for the app's models and pages
-
-## GitHub
-
-Initialize your own Git repository with `git init`, then use the ordered, path-specific add/commit commands prepared for this project. Avoid `git add .` before those steps because it stages all pending work into one commit. Do **not** fabricate a 20-commit history; each commit should capture a real project or testing improvement.
-
-```powershell
-git init
-```
-
-Create an empty repository on GitHub and follow its instructions for connecting `origin` and pushing your branch.
+Use the [demo checklist](docs/DEMO_CHECKLIST.md) when presenting the application. Final grading and the applicability of conditional criteria are determined by the instructor.
