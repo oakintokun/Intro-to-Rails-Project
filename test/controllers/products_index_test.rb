@@ -4,7 +4,7 @@ class ProductsIndexTest < ActionDispatch::IntegrationTest
   test "lists products and exposes the search and filter controls" do
     product = create_test_product(name: "Index test product")
 
-    get products_url
+    get products_url, params: { q: product.name }
 
     assert_response :success
     assert_select "h1", "Find your next beauty favourite."

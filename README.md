@@ -46,7 +46,7 @@ Run the Rails tests with:
 ruby bin/rails test
 ```
 
-The suite covers validations, associations, seed imports, search, filters, pagination, pages, the map, and navigation. The GitHub Actions test job previously failed because Rails eager loading requires `config/storage.yml`; that configuration has now been added. Locally, all **32 tests and 197 assertions pass with `CI=true`**. Push the fix to GitHub and confirm the Actions run turns green before treating the remote CI check as passed.
+The suite covers validations, associations, seed imports, search, filters, pagination, pages, the map, and navigation. The initial GitHub Actions runs exposed a missing Active Storage configuration and a product-list test that assumed the database was empty. Both issues have been fixed locally; the full suite passes with CI eager loading enabled. Push these latest fixes and confirm the next GitHub Actions run turns green before treating the remote CI check as passed.
 
 ## Rubric evidence and remaining checks
 
@@ -59,6 +59,6 @@ The suite covers validations, associations, seed imports, search, filters, pagin
 - **4.1–4.2:** Text search and category/brand filters.
 - **5.2–5.3:** ERB conditionals and Bootstrap grid layouts.
 - **5.1:** Local structural HTML checks passed for representative rendered pages. A separate W3C Nu HTML Checker run has not yet been recorded; complete it before submission if your instructor requires that specific checker.
-- **6.1–6.2:** [GitHub repository](https://github.com/oakintokun/Intro-to-Rails-Project) has 20 commits on `main`. The latest code changes, including the CI fix, must still be committed and pushed.
+- **6.1–6.2:** [GitHub repository](https://github.com/oakintokun/Intro-to-Rails-Project) has at least 20 commits on `main`. Commit and push any pending fixes, then verify the latest CI run.
 
 Use the [demo checklist](docs/DEMO_CHECKLIST.md) when presenting the application. Final grading and the applicability of conditional criteria are determined by the instructor.
